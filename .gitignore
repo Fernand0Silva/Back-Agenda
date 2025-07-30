@@ -3,7 +3,10 @@ target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+/build/
+/out/
+# Arquivos de erro da JVM (Java crash logs)
+hs_err_pid*.log
 ### STS ###
 .apt_generated
 .classpath
@@ -14,10 +17,21 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+.classpath
+.project
+.settings/
+# Arquivos de config sensíveis
+*.env
+application.properties
+application.yml
+
+#Sistema operacional
+.DS_Store
+Thumbs.db
 
 ### NetBeans ###
 /nbproject/private/
