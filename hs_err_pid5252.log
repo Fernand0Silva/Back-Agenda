@@ -1,0 +1,28 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff885bc1b79, pid=5252, tid=5892
+#
+# JRE version:  (22.0.2+9) (build )
+# Java VM: OpenJDK 64-Bit Server VM (22.0.2+9, mixed mode, sharing, tiered, compressed class ptrs, unknown gc, windows-amd64)
+# Problematic frame:
+# C  [jimage.dll+0x1b79]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: 
+
+Host: Intel(R) Celeron(R) N4020C CPU @ 1.10GHz, 2 cores, 3G,  Windows 11 , 64 bit Build 22621 (10.0.22621.5415)
+Time: Tue Jul 29 20:25:06 2025 Hora oficial do Brasil elapsed time: 0.346983 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+Stack: [0x000000c468400000,0x000000c468500000],  sp=0x000000c4684fddc0,  free space=1015k
+
+[error occurred during error reporting (printing native stack (with source info)), id 0xc00000fd, EXCEPTION_STACK_OVERFLOW (0xc00000fd) at pc=0x00007ff89fab3007]
